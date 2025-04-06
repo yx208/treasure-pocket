@@ -1,12 +1,16 @@
 {
-    "name": "@repo/core",
+    "name": "@repo/hooks",
     "version": "0.0.1",
     "private": true,
     "sideEffects": false,
     "files": ["src"],
     "main": "./src/index.ts",
     "module": "./src/index.ts",
+    "devDependencies": {
+        "@types/react": "^19.0.0",
+        "react": "^19.0.0"
+    },
     "peerDependencies": {
-        "react": ">=18.0.0"
+        "react": ">=19.0.0"
     }
 }

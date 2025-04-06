@@ -1,12 +1,15 @@
 {
-    "name": "@repo/core",
+    "name": "@repo/animations",
     "version": "0.0.1",
     "private": true,
     "sideEffects": false,
     "files": ["src"],
     "main": "./src/index.ts",
     "module": "./src/index.ts",
+    "devDependencies": {
+        "framer-motion": "^12.0.0"
+    },
     "peerDependencies": {
-        "react": ">=18.0.0"
+        "framer-motion": ">=12.0.0"
     }
 }

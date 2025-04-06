@@ -1,7 +1,12 @@
+# doc: https://pnpm.io/zh/settings#preferworkspacepackages
+preferWorkspacePackages: true
+# doc: https://pnpm.io/zh/settings#linkworkspacepackages
+linkWorkspacePackages: deep
 packages:
     - 'packages/core'
     - 'packages/components/*'
-    - 'packages/hooks/*'
+    - 'packages/hooks'
     - 'packages/utils'
     - 'packages/pocket'
+    - 'packages/animations'
     - 'apps/*'
