@@ -1,0 +1,12 @@
+{
+    "name": "@repo-theme/button",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+
+    },
+    "peerDependencies": {
+        "react": ">=18.0.0",
+        "react-dom": ">=18.0.0"
+    }
+}
