@@ -20,6 +20,9 @@ importers:
 
   apps/app:
     dependencies:
+      '@pocket/react':
+        specifier: workspace:^
+        version: link:../../packages/ui
       '@tailwindcss/vite':
         specifier: ^4.1.3
         version: 4.1.3(vite@6.2.5(jiti@2.4.2)(lightningcss@1.29.2))
@@ -29,9 +32,6 @@ importers:
       '@tauri-apps/plugin-opener':
         specifier: ^2
         version: 2.2.6
-      '@ui/react':
-        specifier: workspace:^
-        version: link:../../packages/ui
       react:
         specifier: ^19
         version: 19.1.0
@@ -121,7 +121,7 @@ importers:
 
   packages/ui:
     dependencies:
-      '@ui/button':
+      '@pocket/button':
         specifier: workspace:*
         version: link:../components/button
       framer-motion:

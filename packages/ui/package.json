@@ -1,5 +1,5 @@
 {
-    "name": "@ui/react",
+    "name": "@pocket/react",
     "version": "0.0.1",
     "private": true,
     "sideEffects": false,
@@ -14,7 +14,7 @@
         "react-dom": ">=19"
     },
     "dependencies": {
-        "@ui/button": "workspace:*"
+        "@pocket/button": "workspace:*"
     },
     "devDependencies": {
         "tsup": "^8.4.0",

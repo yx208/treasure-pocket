@@ -1,4 +1,4 @@
-export * from "@ui/button";
+export * from "@pocket/button";
 
 export const version = "0.0.1";
 

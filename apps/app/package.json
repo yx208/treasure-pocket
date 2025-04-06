@@ -13,7 +13,7 @@
     "@tailwindcss/vite": "^4.1.3",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
-    "@ui/react": "workspace:^",
+    "@pocket/react": "workspace:^",
     "react": "^19",
     "react-dom": "^19",
     "tailwindcss": "^4.1.3"

@@ -1,5 +1,5 @@
 import "./App.css";
-import {Button} from "@ui/react";
+import {Button} from "@pocket/react";
 
 function App() {
     return (
