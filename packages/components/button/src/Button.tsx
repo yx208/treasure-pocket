@@ -36,3 +36,6 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, forwardedRef) 
 
 Button.displayName = "Button";
 
+export {
+    Button
+}

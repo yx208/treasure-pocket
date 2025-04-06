@@ -1,0 +1,24 @@
+{
+    "name": "@ui/react",
+    "version": "0.0.1",
+    "private": true,
+    "sideEffects": false,
+    "files": [
+        "src"
+    ],
+    "main": "./src/index.ts",
+    "module": "./src/index.ts",
+    "peerDependencies": {
+        "framer-motion": ">=12",
+        "react": ">=19",
+        "react-dom": ">=19"
+    },
+    "dependencies": {
+        "@ui/button": "workspace:*"
+    },
+    "devDependencies": {
+        "tsup": "^8.4.0",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    }
+}

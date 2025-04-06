@@ -4,9 +4,10 @@ preferWorkspacePackages: true
 linkWorkspacePackages: deep
 packages:
     - 'packages/core'
-    - 'packages/components/*'
+    - 'packages/ui'
     - 'packages/hooks'
     - 'packages/utils'
     - 'packages/pocket'
     - 'packages/animations'
+    - 'packages/components/*'
     - 'apps/*'
